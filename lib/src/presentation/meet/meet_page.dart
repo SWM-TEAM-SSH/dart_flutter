@@ -22,11 +22,12 @@ class _MeetPageState extends State<MeetPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Center(
         child: Column(
           children: [
             SizedBox(height: SizeConfig.defaultSize * 10,),
-            Text("7월 OPEN",
+            Text("9월 OPEN",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.w500,
